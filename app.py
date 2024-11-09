@@ -6,7 +6,7 @@ from datetime import datetime
 import csv
 
 app = Flask(__name__)
-api_key = '5EW2VPXRG7XF7PWK'  # Replace with your Alpha Vantage API Key
+api_key = '5EW2VPXRG7XF7PWK'  
 
 # Function to fetch stock data from Alpha Vantage
 def get_stock_data(symbol, function, start_date, end_date):
